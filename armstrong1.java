@@ -21,3 +21,10 @@ import java.util.*;
 			 System.out.println("not ");
 	 }
  }
+
+//o.p.
+ //Enter n:
+ //153
+ //Enter n:
+ //121
+ //not

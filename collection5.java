@@ -1,22 +1,24 @@
-import java.util.*;
-public class collection5 
-{
-    public static void main(String[] args) 
-    {
-        TreeSet<String>Set = new TreeSet<String>();
-        Set.add("HIF");
-        Set.add("hif");
-        Set.add("JKL");
-        Set.add("jkl");
-        Iterator<String>itr = Set.iterator();
-        while(itr.hasNext())
-        {
-            System.out.println(itr.next());
-        }
-    }  
+import java.util.*;  
+class collection5
+{  
+  public static void main(String args[])
+  {  
+     TreeSet<String> set=new TreeSet<String>();  
+         set.add("HIF");  
+         set.add("JKL");  
+         set.add("jif");
+         set.add("jkl");  
+         
+         Iterator i=set.descendingIterator();  
+         while(i.hasNext())  
+         {  
+             System.out.println(i.next());  
+         }  
+           
+  }  
 }
 
-/*HIF
+/*jkl
+jif
 JKL
-hif
-jkl */
+HIF  */

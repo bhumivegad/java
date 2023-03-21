@@ -1,0 +1,18 @@
+import java.io.*;
+public class inputstrm1 
+{
+    public static void main(String[] args) throws Exception
+    {
+        InputStream inputStream = new FileInputStream("output.txt");
+        Reader reader = new  InputStreamReader(inputStream); 
+        int data = reader.read();
+        while(data!=-1)
+        {
+            System.out.println((char)data);
+            data=reader.read();
+        }
+
+    }    
+}
+
+// hello
